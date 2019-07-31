@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-LuGu/Pods-LuGu-resources.sh
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/core.manifest.json
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/DefaultConfiguration.plist
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/DefaultConfiguration~ipad.plist
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/DefaultConfiguration~iphone.plist
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/DefaultConfiguration~ipod.plist
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/Info-iOS-Extension.plist
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/Info-iOS.plist
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/Info-tvOS.plist
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/Info-watchOS.plist
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/nuggad.manifest.json
+${PODS_ROOT}/ATInternet-Apple-SDK/ATInternetTracker/Sources/TrackerBundle.bundle

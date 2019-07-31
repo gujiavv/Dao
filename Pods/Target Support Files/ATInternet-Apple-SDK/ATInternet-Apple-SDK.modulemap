@@ -1,0 +1,6 @@
+framework module Tracker {
+  umbrella header "ATInternet-Apple-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
