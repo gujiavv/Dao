@@ -14,7 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        self.window?.rootViewController = UINavigationController(rootViewController: LoginViewController())
+        
+        let vc = UIStoryboard.init(name: "Login", bundle: Bundle.main).instantiateViewController(withIdentifier: "LoginNavi") as? UINavigationController
+        
+        self.window?.rootViewController = vc!
+        
         return true
     }
 

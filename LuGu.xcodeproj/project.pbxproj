@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B566CB17BA488F210C925AE /* Pods_LuGu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF168472275F1BDABEA7F49 /* Pods_LuGu.framework */; };
 		0E0B2B0022B23C1300DA5D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B2AFF22B23C1300DA5D64 /* AppDelegate.swift */; };
-		0E0B2B0222B23C1300DA5D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B2B0122B23C1300DA5D64 /* ViewController.swift */; };
-		0E0B2B0522B23C1300DA5D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B2B0322B23C1300DA5D64 /* Main.storyboard */; };
+		0E0B2B0522B23C1300DA5D64 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B2B0322B23C1300DA5D64 /* Login.storyboard */; };
 		0E0B2B0722B23C1400DA5D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B2B0622B23C1400DA5D64 /* Assets.xcassets */; };
 		0E0B2B0A22B23C1400DA5D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B2B0822B23C1400DA5D64 /* LaunchScreen.storyboard */; };
 		0E0B2B1522B23C1400DA5D64 /* LuGuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B2B1422B23C1400DA5D64 /* LuGuTests.swift */; };
@@ -18,6 +17,7 @@
 		0E0B2B2E22B37AC700DA5D64 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B2B2D22B37AC700DA5D64 /* LoginViewController.swift */; };
 		0E0B2B3022B3858000DA5D64 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B2B2F22B3858000DA5D64 /* BaseViewController.swift */; };
 		0E0B2B3322B38FEE00DA5D64 /* PrefixHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B2B3222B38FEE00DA5D64 /* PrefixHeader.swift */; };
+		0E157B6E22F7D95E00A397B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E157B6D22F7D95E00A397B9 /* Main.storyboard */; };
 		0E38254D22C9E23C007B58BE /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38254C22C9E23C007B58BE /* LoginTextField.swift */; };
 		0E38260622CEFA10007B58BE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38260522CEFA10007B58BE /* UIColor+Extension.swift */; };
 		0E38260822CF300B007B58BE /* MBProgressHUD+MJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38260722CF300B007B58BE /* MBProgressHUD+MJ.swift */; };
@@ -43,8 +43,7 @@
 /* Begin PBXFileReference section */
 		0E0B2AFC22B23C1300DA5D64 /* LuGu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuGu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0B2AFF22B23C1300DA5D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E0B2B0122B23C1300DA5D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0E0B2B0422B23C1300DA5D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E0B2B0422B23C1300DA5D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		0E0B2B0622B23C1400DA5D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0B2B0922B23C1400DA5D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E0B2B0B22B23C1400DA5D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		0E0B2B2D22B37AC700DA5D64 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0E0B2B2F22B3858000DA5D64 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0E0B2B3222B38FEE00DA5D64 /* PrefixHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixHeader.swift; sourceTree = "<group>"; };
+		0E157B6D22F7D95E00A397B9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0E38254C22C9E23C007B58BE /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		0E38260522CEFA10007B58BE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		0E38260722CF300B007B58BE /* MBProgressHUD+MJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+MJ.swift"; sourceTree = "<group>"; };
@@ -125,13 +125,10 @@
 		0E0B2AFE22B23C1300DA5D64 /* LuGu */ = {
 			isa = PBXGroup;
 			children = (
-				0E0B2AFF22B23C1300DA5D64 /* AppDelegate.swift */,
-				0E0B2B0122B23C1300DA5D64 /* ViewController.swift */,
-				0E0B2B2D22B37AC700DA5D64 /* LoginViewController.swift */,
-				0E0B2B2F22B3858000DA5D64 /* BaseViewController.swift */,
-				0E38254C22C9E23C007B58BE /* LoginTextField.swift */,
-				0E0B2B3222B38FEE00DA5D64 /* PrefixHeader.swift */,
-				0E0B2B0322B23C1300DA5D64 /* Main.storyboard */,
+				0E157B6C22F679F400A397B9 /* Base */,
+				0E157B6B22F679EF00A397B9 /* Login */,
+				0E0B2B0322B23C1300DA5D64 /* Login.storyboard */,
+				0E157B6D22F7D95E00A397B9 /* Main.storyboard */,
 				0E0B2B0622B23C1400DA5D64 /* Assets.xcassets */,
 				0E0B2B0822B23C1400DA5D64 /* LaunchScreen.storyboard */,
 				0E0B2B0B22B23C1400DA5D64 /* Info.plist */,
@@ -157,6 +154,25 @@
 				0E0B2B2122B23C1400DA5D64 /* Info.plist */,
 			);
 			path = LuGuUITests;
+			sourceTree = "<group>";
+		};
+		0E157B6B22F679EF00A397B9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B2B2D22B37AC700DA5D64 /* LoginViewController.swift */,
+				0E0B2B2F22B3858000DA5D64 /* BaseViewController.swift */,
+				0E38254C22C9E23C007B58BE /* LoginTextField.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0E157B6C22F679F400A397B9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B2B3222B38FEE00DA5D64 /* PrefixHeader.swift */,
+				0E0B2AFF22B23C1300DA5D64 /* AppDelegate.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		EF0C02924C47B74B6192DEE9 /* Frameworks */ = {
@@ -276,7 +292,8 @@
 			files = (
 				0E0B2B0A22B23C1400DA5D64 /* LaunchScreen.storyboard in Resources */,
 				0E0B2B0722B23C1400DA5D64 /* Assets.xcassets in Resources */,
-				0E0B2B0522B23C1300DA5D64 /* Main.storyboard in Resources */,
+				0E0B2B0522B23C1300DA5D64 /* Login.storyboard in Resources */,
+				0E157B6E22F7D95E00A397B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +381,6 @@
 				0E38260622CEFA10007B58BE /* UIColor+Extension.swift in Sources */,
 				0E0B2B2E22B37AC700DA5D64 /* LoginViewController.swift in Sources */,
 				0E0B2B3022B3858000DA5D64 /* BaseViewController.swift in Sources */,
-				0E0B2B0222B23C1300DA5D64 /* ViewController.swift in Sources */,
 				0E38254D22C9E23C007B58BE /* LoginTextField.swift in Sources */,
 				0E0B2B0022B23C1300DA5D64 /* AppDelegate.swift in Sources */,
 				0E0B2B3322B38FEE00DA5D64 /* PrefixHeader.swift in Sources */,
@@ -403,12 +419,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0E0B2B0322B23C1300DA5D64 /* Main.storyboard */ = {
+		0E0B2B0322B23C1300DA5D64 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0E0B2B0422B23C1300DA5D64 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		0E0B2B0822B23C1400DA5D64 /* LaunchScreen.storyboard */ = {
