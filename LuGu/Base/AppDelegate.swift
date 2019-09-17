@@ -15,9 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let vc = UIStoryboard.init(name: "Login", bundle: Bundle.main).instantiateViewController(withIdentifier: "LoginNavi") as? UINavigationController
+        //need to login
+//        let vc = UIStoryboard.init(name: "Login", bundle: Bundle.main).instantiateViewController(withIdentifier: "LoginNavi") as? UINavigationController
         
-        self.window?.rootViewController = vc!
+        //no need to login
+        let vc = UINavigationController(rootViewController: CategoryViewController.init())
+        
+        self.window?.rootViewController = vc
         
         return true
     }

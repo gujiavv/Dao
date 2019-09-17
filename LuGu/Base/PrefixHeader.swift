@@ -13,4 +13,5 @@ let kScreenBounds = UIScreen.main.bounds
 let kScreenSize = kScreenBounds.size
 let kScreentWidth = kScreenSize.width
 let kScreentHeight = kScreenSize.height
+let kCellImageWidth = kScreentWidth/5
 

@@ -20,8 +20,7 @@ class LoginViewController: BaseViewController ,UITextFieldDelegate{
     
     @IBAction func loginAction(_ sender: UIButton) {
           let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "TabbarVC") as? UITabBarController
-          AppDelegate
-//          self.navigationController?.pushViewController(vc!, animated: true)
+          self.navigationController?.pushViewController(vc!, animated: true)
     }
     
 }

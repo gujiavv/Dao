@@ -21,6 +21,17 @@
 		0E38254D22C9E23C007B58BE /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38254C22C9E23C007B58BE /* LoginTextField.swift */; };
 		0E38260622CEFA10007B58BE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38260522CEFA10007B58BE /* UIColor+Extension.swift */; };
 		0E38260822CF300B007B58BE /* MBProgressHUD+MJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38260722CF300B007B58BE /* MBProgressHUD+MJ.swift */; };
+		0EA3E5B82325F9150003A7F6 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3E5B72325F9150003A7F6 /* CategoryViewController.swift */; };
+		0EA3E5BA2325FA540003A7F6 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3E5B92325FA540003A7F6 /* CategoryCollectionViewCell.swift */; };
+		0EA3E5C023264AF60003A7F6 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3E5BF23264AF60003A7F6 /* HttpRequest.swift */; };
+		0EA3E5C2232657520003A7F6 /* CategoryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3E5C1232657520003A7F6 /* CategoryDataModel.swift */; };
+		0EA3E5C42327441B0003A7F6 /* JsonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3E5C32327441B0003A7F6 /* JsonUtil.swift */; };
+		0EA3E5C6232746500003A7F6 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3E5C5232746500003A7F6 /* BaseModel.swift */; };
+		0EA3E5C823277BEB0003A7F6 /* UIView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3E5C723277BEB0003A7F6 /* UIView+Category.swift */; };
+		0EA3E5CA232783E10003A7F6 /* CategoryLevel2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3E5C9232783E10003A7F6 /* CategoryLevel2ViewController.swift */; };
+		0EA3E5CC232897FC0003A7F6 /* CategoryLevel3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3E5CB232897FC0003A7F6 /* CategoryLevel3ViewController.swift */; };
+		0EBDF7532328FC80004370A3 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDF7522328FC80004370A3 /* QuestionTableViewCell.swift */; };
+		0EBDF755232A16CC004370A3 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDF754232A16CC004370A3 /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +71,17 @@
 		0E38254C22C9E23C007B58BE /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		0E38260522CEFA10007B58BE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		0E38260722CF300B007B58BE /* MBProgressHUD+MJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+MJ.swift"; sourceTree = "<group>"; };
+		0EA3E5B72325F9150003A7F6 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		0EA3E5B92325FA540003A7F6 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		0EA3E5BF23264AF60003A7F6 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		0EA3E5C1232657520003A7F6 /* CategoryDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDataModel.swift; sourceTree = "<group>"; };
+		0EA3E5C32327441B0003A7F6 /* JsonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonUtil.swift; sourceTree = "<group>"; };
+		0EA3E5C5232746500003A7F6 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		0EA3E5C723277BEB0003A7F6 /* UIView+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Category.swift"; sourceTree = "<group>"; };
+		0EA3E5C9232783E10003A7F6 /* CategoryLevel2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryLevel2ViewController.swift; sourceTree = "<group>"; };
+		0EA3E5CB232897FC0003A7F6 /* CategoryLevel3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryLevel3ViewController.swift; sourceTree = "<group>"; };
+		0EBDF7522328FC80004370A3 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		0EBDF754232A16CC004370A3 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		1BF168472275F1BDABEA7F49 /* Pods_LuGu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuGu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E823E6C361B08F5674D80B /* Pods-LuGu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuGu.release.xcconfig"; path = "Target Support Files/Pods-LuGu/Pods-LuGu.release.xcconfig"; sourceTree = "<group>"; };
 		C5809B4AA93DE796B41181F7 /* Pods-LuGu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuGu.debug.xcconfig"; path = "Target Support Files/Pods-LuGu/Pods-LuGu.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +147,7 @@
 		0E0B2AFE22B23C1300DA5D64 /* LuGu */ = {
 			isa = PBXGroup;
 			children = (
+				0EA3E5B62325F8D00003A7F6 /* Category */,
 				0E157B6C22F679F400A397B9 /* Base */,
 				0E157B6B22F679EF00A397B9 /* Login */,
 				0E0B2B0322B23C1300DA5D64 /* Login.storyboard */,
@@ -171,8 +194,26 @@
 			children = (
 				0E0B2B3222B38FEE00DA5D64 /* PrefixHeader.swift */,
 				0E0B2AFF22B23C1300DA5D64 /* AppDelegate.swift */,
+				0EA3E5BF23264AF60003A7F6 /* HttpRequest.swift */,
+				0EA3E5C723277BEB0003A7F6 /* UIView+Category.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		0EA3E5B62325F8D00003A7F6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0EA3E5C9232783E10003A7F6 /* CategoryLevel2ViewController.swift */,
+				0EA3E5CB232897FC0003A7F6 /* CategoryLevel3ViewController.swift */,
+				0EA3E5B72325F9150003A7F6 /* CategoryViewController.swift */,
+				0EA3E5B92325FA540003A7F6 /* CategoryCollectionViewCell.swift */,
+				0EA3E5C1232657520003A7F6 /* CategoryDataModel.swift */,
+				0EA3E5C32327441B0003A7F6 /* JsonUtil.swift */,
+				0EA3E5C5232746500003A7F6 /* BaseModel.swift */,
+				0EBDF7522328FC80004370A3 /* QuestionTableViewCell.swift */,
+				0EBDF754232A16CC004370A3 /* AnswerViewController.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		EF0C02924C47B74B6192DEE9 /* Frameworks */ = {
@@ -195,7 +236,6 @@
 				0E0B2AF922B23C1300DA5D64 /* Frameworks */,
 				0E0B2AFA22B23C1300DA5D64 /* Resources */,
 				213B80F4DB00455DFE7A2BD8 /* [CP] Embed Pods Frameworks */,
-				62FECDCCBE4E99B23EFE388C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -331,23 +371,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuGu/Pods-LuGu-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		62FECDCCBE4E99B23EFE388C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LuGu/Pods-LuGu-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LuGu/Pods-LuGu-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuGu/Pods-LuGu-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8821E25ED475C2EC1F14886F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,12 +401,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E38260822CF300B007B58BE /* MBProgressHUD+MJ.swift in Sources */,
+				0EA3E5C823277BEB0003A7F6 /* UIView+Category.swift in Sources */,
 				0E38260622CEFA10007B58BE /* UIColor+Extension.swift in Sources */,
 				0E0B2B2E22B37AC700DA5D64 /* LoginViewController.swift in Sources */,
 				0E0B2B3022B3858000DA5D64 /* BaseViewController.swift in Sources */,
+				0EA3E5C023264AF60003A7F6 /* HttpRequest.swift in Sources */,
+				0EA3E5BA2325FA540003A7F6 /* CategoryCollectionViewCell.swift in Sources */,
+				0EA3E5B82325F9150003A7F6 /* CategoryViewController.swift in Sources */,
+				0EA3E5C2232657520003A7F6 /* CategoryDataModel.swift in Sources */,
+				0EBDF7532328FC80004370A3 /* QuestionTableViewCell.swift in Sources */,
+				0EA3E5C6232746500003A7F6 /* BaseModel.swift in Sources */,
+				0EA3E5C42327441B0003A7F6 /* JsonUtil.swift in Sources */,
+				0EBDF755232A16CC004370A3 /* AnswerViewController.swift in Sources */,
 				0E38254D22C9E23C007B58BE /* LoginTextField.swift in Sources */,
 				0E0B2B0022B23C1300DA5D64 /* AppDelegate.swift in Sources */,
 				0E0B2B3322B38FEE00DA5D64 /* PrefixHeader.swift in Sources */,
+				0EA3E5CA232783E10003A7F6 /* CategoryLevel2ViewController.swift in Sources */,
+				0EA3E5CC232897FC0003A7F6 /* CategoryLevel3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +601,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-106TestDemo.com.LuGu";
+				PRODUCT_BUNDLE_IDENTIFIER = ody.com.LuGu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -587,7 +621,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-106TestDemo.com.LuGu";
+				PRODUCT_BUNDLE_IDENTIFIER = ody.com.LuGu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
